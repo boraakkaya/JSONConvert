@@ -1,0 +1,83 @@
+﻿@page
+@using Newtonsoft.Json;
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<br/>
+<br />
+<br />
+<div class="jumbotron">
+    <form method="post">
+        <div class="row form-group">
+            <div class="col-md-3">First Name</div>
+            <div class="col-md-9">
+                <input type="text" class="form-control" asp-for="Customer.Title" />
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-md-3">Last Name</div>
+            <div class="col-md-9">
+                <input type="text" class="form-control" asp-for="Customer.Lastname" />
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-md-3">Age</div>
+            <div class="col-md-9">
+                <input type="text" class="form-control" asp-for="Customer.JSONData.Age" />
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-md-3">Job Title</div>
+            <div class="col-md-9">
+                <input type="text" class="form-control" asp-for="Customer.JSONData.JobTitle" />
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-md-3">Comments</div>
+            <div class="col-md-9">
+                <textarea type="text" class="form-control" asp-for="Customer.JSONData.Comments"></textarea>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-md-3">Favorite Color</div>
+            <div class="col-md-9">
+                <textarea type="text" class="form-control" asp-for="Customer.JSONData.SubJSONData.FavoriteColor"></textarea>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-md-3">Favorite Number</div>
+            <div class="col-md-9">
+                <textarea type="text" class="form-control" asp-for="Customer.JSONData.SubJSONData.FavoriteNUmber"></textarea>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-sm-12 text-right">
+                <input type="submit" class="btn btn-primary" value="Submit" />
+            </div>
+        </div>
+    </form>
+</div>
+Model is : <br/>
+<br/>
+@JsonConvert.SerializeObject(Model.Customer)
+<br/>
+<br />
+<br />
+Post Result @Model.postResult
+<br />
+
+@section  Scripts{ 
+    <script type="text/javascript">
+        var jsonObject =@Html.Raw(JsonConvert.SerializeObject(Model.Customer));
+            console.log("JSON Object ", jsonObject);
+    </script>
+}
+

@@ -1,0 +1,14 @@
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\bin\Debug\netcoreapp2.1\TestJSONConvertWebAPI.deps.json
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\bin\Debug\netcoreapp2.1\TestJSONConvertWebAPI.runtimeconfig.json
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\bin\Debug\netcoreapp2.1\TestJSONConvertWebAPI.runtimeconfig.dev.json
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\bin\Debug\netcoreapp2.1\TestJSONConvertWebAPI.dll
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\bin\Debug\netcoreapp2.1\TestJSONConvertWebAPI.pdb
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\obj\Debug\netcoreapp2.1\TestJSONConvertWebAPI.csproj.CoreCompileInputs.cache
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\obj\Debug\netcoreapp2.1\TestJSONConvertWebAPI.RazorAssemblyInfo.cache
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\obj\Debug\netcoreapp2.1\TestJSONConvertWebAPI.RazorAssemblyInfo.cs
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\obj\Debug\netcoreapp2.1\TestJSONConvertWebAPI.AssemblyInfoInputs.cache
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\obj\Debug\netcoreapp2.1\TestJSONConvertWebAPI.AssemblyInfo.cs
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\obj\Debug\netcoreapp2.1\TestJSONConvertWebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\obj\Debug\netcoreapp2.1\TestJSONConvertWebAPI.dll
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\obj\Debug\netcoreapp2.1\TestJSONConvertWebAPI.pdb
+C:\Users\Bora\Source\Repos\TestJSONConvert\TestJSONConvertWebAPI\obj\Debug\netcoreapp2.1\TestJSONConvertWebAPI.csprojAssemblyReference.cache
